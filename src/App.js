@@ -1,11 +1,11 @@
 import './App.css';
-import SocialProfile from './components/social-profile.jsx';
+import SocialProfile from './components/social-profile/social-profile.jsx';
 import user from './data/user.json';
-import Statistics from './components/statistics.jsx';
+import Statistics from './components/statistics/statistics.jsx';
 import data from './data/data.json';
-import FriendList from './components/friend-list.jsx';
+import FriendList from './components/friends-list/friend-list.jsx';
 import friends from './data/friends.json';
-import TransactionHistory from './components/transaction.jsx';
+import TransactionHistory from './components/transaction/transaction.jsx';
 import transaction from './data/transactions.json';
 
 function App() {
@@ -16,9 +16,7 @@ function App() {
         avatar={user.avatar}
         tag={user.tag}
         location={user.location}
-        followers={user.stats.followers}
-        views={user.stats.views}
-        likes={user.stats.likes}
+        stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />

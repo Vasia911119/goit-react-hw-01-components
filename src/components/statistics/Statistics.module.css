@@ -1,0 +1,33 @@
+.statistics {
+  width: 300px;
+  height: 100%;
+  margin: 0 auto 30px;
+  padding-top: 30px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.title {
+  color: #575757;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+}
+
+.item {
+  width: 25%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.label {
+  color: #fff;
+}

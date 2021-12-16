@@ -1,0 +1,50 @@
+.history {
+  margin: 0 auto 30px;
+  width: 95%;
+  min-width: 320px;
+  max-width: 500px;
+  border-collapse: collapse;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.history > thead {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #0087b4;
+}
+
+.history th,
+.history td {
+  padding: 15px;
+  border: none;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.history td {
+  text-align: center;
+}
+
+.history tr:nth-child(even) {
+  background-color: #eceaea;
+}
+
+.history thead th:first-child {
+  border-radius: 5px 0 0 0;
+}
+
+.history thead th:last-child {
+  border-radius: 0 5px 0 0;
+}
+
+.history tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+.history tbody tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
