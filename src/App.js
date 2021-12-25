@@ -1,11 +1,11 @@
 import './App.css';
-import SocialProfile from './components/social-profile/social-profile.jsx';
+import SocialProfile from './components/socialProfile/SocialProfile.jsx';
 import user from './data/user.json';
-import Statistics from './components/statistics/statistics.jsx';
+import Statistics from './components/statistics/Statistics.jsx';
 import data from './data/data.json';
-import FriendList from './components/friends-list/friend-list.jsx';
+import FriendList from './components/friendList/FriendList.jsx';
 import friends from './data/friends.json';
-import TransactionHistory from './components/transaction/transaction.jsx';
+import TransactionHistory from './components/transaction/Transaction.jsx';
 import transaction from './data/transactions.json';
 
 function App() {

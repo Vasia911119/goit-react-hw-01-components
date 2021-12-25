@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import s from './Social-profile.module.css';
+import s from './SocialProfile.module.css';
 
 function SocialProfile({ username, tag, location, stats }) {
   return (
